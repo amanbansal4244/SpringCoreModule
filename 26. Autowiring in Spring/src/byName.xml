@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+  
+  <!--
+  
+    In case of byName autowiring mode, bean id and reference name must be same.
+
+	It internally uses setter injection.
+	
+	<bean id="b" class="B"></bean>  
+	<bean id="a" class="A" autowire="byName"></bean>  
+	But, if you change the name of bean, it will not inject the dependency.
+	
+	Let's see the code where we are changing the name of the bean from b to b1.
+	
+	<bean id="b1" class="B"></bean>  
+	<bean id="a" class="A" autowire="byName"></bean>  
+	  
+    -->
+  
+	<bean id="b" class="B"></bean>  
+	<bean id="a" class="A" autowire="byName"></bean>  
+  
+</beans>  

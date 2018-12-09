@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+  
+  
+  	  <bean id="myPerson" class="Person">
+			    <property name="name" value="java2s" />
+			    <property name="address" value="address ABC" />
+			    <property name="age" value="29" />
+	  </bean>
+	  
+	    
+	  <bean id="myCustomer" class="Customer" 
+	         dependency-check="all">
+			    <property name="person" ref="myPerson" />
+			    <property name="type" value="2" />
+			   <!--  <property name="action" value="buy" /> --> 
+	  </bean>
+  
+  <!--
+	  	If we do comment :    <property name="action" value="buy" /> -> in Object.xml 
+		We will get an UnsatisfiedDependencyException will throw as follows.
+	
+		But if do comment:    <property name="person" ref="myPerson" /> -> in Object.xml
+		Then We will  get an UnsatisfiedDependencyException will throw as follows.
+	-->
+	
+	  
+</beans>

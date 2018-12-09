@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_161]">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/aop.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/core.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/ibatis.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/j2ee.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/javaconfig.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/misc.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/persistCore.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/persistJDO.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/remoting.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/spring-web-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/springjars.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/test.zip"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Jars/Spring Jar/web.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
